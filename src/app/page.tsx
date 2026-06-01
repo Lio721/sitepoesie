@@ -13,7 +13,7 @@ export default function Home() {
         </p>
       </div>
 
-      <div className="grid gap-6 sm:grid-cols-2">
+      <div className="max-w-xl mx-auto space-y-4">
         {poems.map((poem) => (
           <Link 
             key={poem.id} 
@@ -24,9 +24,6 @@ export default function Home() {
             <h2 className="font-serif text-xl text-indigo-100 group-hover:text-indigo-300 transition mt-2 mb-3">
               {poem.title}
             </h2>
-            <p className="text-sm text-slate-400 line-clamp-3 font-sans leading-relaxed">
-              {poem.summary}
-            </p>
             <div className="mt-4 text-xs font-medium text-indigo-300 group-hover:translate-x-1 transition-transform inline-flex items-center gap-1">
               Lire le poème <span>→</span>
             </div>
