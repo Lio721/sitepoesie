@@ -33,8 +33,8 @@ export async function publierPoeme(formData: FormData) {
   const nouvelleListe = [nouveauPoeme, ...poems];
 
   // Variables pour l'API GitHub
-  const OWNER = "TON_PSEUDO_GITHUB"; // À MODIFIER
-  const REPO = "TON_NOM_DE_REPO";    // À MODIFIER
+  const OWNER = "Lio721"; // À MODIFIER
+  const REPO = "sitepoesie";    // À MODIFIER
   const FILE_PATH = "src/data/poems.json";
   const TOKEN = process.env.GITHUB_TOKEN;
 
