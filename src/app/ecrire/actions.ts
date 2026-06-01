@@ -5,7 +5,7 @@ import poems from "@/data/poems.json";
 export async function publierPoeme(formData: FormData) {
   const password = formData.get("password");
   // Remplace "MonMotDePasseSecret" par le mot de passe de ton choix pour protéger l'accès
-  if (password !== "MonMotDePasseSecret") {
+  if (password !== "1234") {
     throw new Error("Mot de passe incorrect");
   }
 
