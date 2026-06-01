@@ -6,10 +6,10 @@ export default function Home() {
     <div className="space-y-12">
       <div className="text-center space-y-4 my-8">
         <h1 className="font-serif text-4xl md:text-5xl text-transparent bg-clip-text bg-gradient-to-r from-indigo-200 via-slate-100 to-indigo-300 py-2">
-          Syllabes Stellaires
+          Mes poèmes
         </h1>
         <p className="text-slate-400 max-w-md mx-auto italic font-serif">
-          « Écrire, c'est dessiner une porte sur un mur indépassable, et puis l'ouvrir. »
+          « Aucun poème ne sera si grand, si noble, si véritablement digne du nom de poème, que celui qui aura été écrit uniquement pour le plaisir d'écrire un poème. »
         </p>
       </div>
 
