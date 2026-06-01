@@ -6,7 +6,9 @@ interface PageProps {
   params: Promise<{ id: string }>;
 }
 
+// Ajoute bien async ici
 export default async function PoemPage({ params }: PageProps) {
+  // Ajoute bien le await ici pour récupérer l'identifiant du poème
   const { id } = await params;
   const poem = poems.find((p) => p.id === id);
 
@@ -27,7 +29,6 @@ export default async function PoemPage({ params }: PageProps) {
         <p className="text-xs text-slate-400 font-mono">Publié le {poem.date}</p>
       </div>
 
-      {/* Rendu du poème en préservant les sauts de ligne (\n) */}
       <div className="font-serif text-lg md:text-xl text-slate-300 leading-loose tracking-wide whitespace-pre-line italic md:pl-8 border-l border-indigo-500/20 py-2">
         {poem.content}
       </div>
