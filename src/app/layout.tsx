@@ -6,8 +6,8 @@ const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 const playfair = Playfair_Display({ subsets: ["latin"], variable: "--font-playfair" });
 
 export const metadata: Metadata = {
-  title: "Les Échos Noctuelles | Mes Poèmes",
-  description: "Recueil de poésies personnelles sous la voûte céleste.",
+  title: "Mes Poèmes",
+  description: "Recueil de poésies personnelles",
 };
 
 export default function RootLayout({
