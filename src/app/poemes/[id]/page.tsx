@@ -17,7 +17,7 @@ export default async function PoemPage({ params }: PageProps) {
   }
 
   return (
-    <article className="max-w-2xl mx-auto space-y-8 animate-fade-in">
+    <article className="max-w-4xl mx-auto space-y-8 animate-fade-in">
       <Link href="/" className="text-sm text-indigo-400 hover:text-indigo-300 transition inline-flex items-center gap-2">
         ← Retour au recueil
       </Link>
