@@ -29,7 +29,7 @@ export default async function PoemPage({ params }: PageProps) {
         <p className="text-xs text-slate-400 font-mono">Publié le {poem.date}</p>
       </div>
 
-      <div className="font-serif text-lg md:text-xl text-slate-300 leading-loose tracking-wide whitespace-pre-line italic md:pl-8 border-l border-indigo-500/20 py-2">
+      <div className="font-serif text-lg md:text-xl text-slate-300 leading-loose tracking-wide whitespace-pre-wrap italic md:pl-8 border-l border-indigo-500/20 py-2">
         {poem.content}
       </div>
     </article>
